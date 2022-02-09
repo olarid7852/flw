@@ -6,6 +6,9 @@
   "author": "Ridwan <olarid7852@gmail.com>",
   "license": "MIT",
   "type": "module",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node index.js",
