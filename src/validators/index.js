@@ -50,8 +50,3 @@ export const configurationValidator = (req, res, next) =>
   validator(configurationValidatorConfig, req, res, next);
 export const transactionValidator = (req, res, next) =>
   validator(transactionValidatorConfig, req, res, next);
-
-// export default {
-//   configurationValidator,
-//   transactionValidator,
-// };
