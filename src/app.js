@@ -30,7 +30,7 @@ app.use((req, res, next) => notFoundError(res));
 app.use((err, req, res, next) => {
   // eslint-disable-next-line no-console
   console.log(err);
-  return internalServerError(err);
+  return internalServerError(res);
 });
 
 export default app;
