@@ -7,7 +7,7 @@
   "license": "MIT",
   "type": "module",
   "engines": {
-    "node": "14.x"
+    "node": "17.1.0"
   },
   "scripts": {
     "dev": "nodemon server.js",
@@ -18,8 +18,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.2",
-    "joi": "^17.6.0",
-    "mongoose": "^6.2.1"
+    "joi": "^17.6.0"
   },
   "devDependencies": {
     "eslint": "^8.8.0",
